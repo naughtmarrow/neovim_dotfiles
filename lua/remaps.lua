@@ -25,3 +25,6 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 
 -- search and replace
 vim.keymap.set("n", "<leader>sr", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+-- temporary remap bc windows sucks d
+vim.keymap.set("n", "<leader>v", "<C-v>")
