@@ -1,6 +1,6 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1 -- disable netrw to replace with nvim-tree
-vim.cmd('language en_US')
+vim.g.have_nerd_font = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.completeopt = "menuone,noselect,noinsert"
 vim.opt.conceallevel = 0
